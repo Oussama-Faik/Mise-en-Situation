@@ -1,0 +1,10 @@
+let button = document.getElementById("confirmer-reservation")
+button.forEach(film)=>{
+button.addEventListener("click", function){
+    if(film.prix>50)
+    {
+        console.log(film.titre)
+    }
+}
+
+}
